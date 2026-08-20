@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img"
+     aria-label="Placeholder portrait of founder Sam Timmerman at the keyboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241432"/><stop offset="1" stop-color="#120B18"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9A93F" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#E9A93F" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="400" cy="800" r="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9A93F" stop-opacity=".4"/><stop offset="1" stop-color="#E9A93F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <path d="M400 -40 L120 1000 L680 1000 Z" fill="url(#cone)" opacity=".3"/>
+  <ellipse cx="400" cy="800" rx="320" ry="110" fill="url(#pool)"/>
+  <g fill="#120B18" opacity=".95">
+    <circle cx="400" cy="430" r="86"/>
+    <path d="M400 530c-108 0-174 62-188 164h376c-14-102-80-164-188-164z"/>
+    <rect x="176" y="742" width="448" height="36" rx="10"/>
+    <rect x="222" y="778" width="356" height="110" rx="8"/>
+  </g>
+  <g stroke="#E9A93F" stroke-width="4" opacity=".75">
+    <line x1="232" y1="742" x2="232" y2="778"/><line x1="264" y1="742" x2="264" y2="778"/><line x1="296" y1="742" x2="296" y2="778"/><line x1="328" y1="742" x2="328" y2="778"/><line x1="360" y1="742" x2="360" y2="778"/><line x1="392" y1="742" x2="392" y2="778"/><line x1="424" y1="742" x2="424" y2="778"/><line x1="456" y1="742" x2="456" y2="778"/><line x1="488" y1="742" x2="488" y2="778"/><line x1="520" y1="742" x2="520" y2="778"/><line x1="552" y1="742" x2="552" y2="778"/><line x1="584" y1="742" x2="584" y2="778"/><line x1="616" y1="742" x2="616" y2="778"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Poetry">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241432"/><stop offset="1" stop-color="#120B18"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="300" y1="0" x2="300" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3D68" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#FF3D68" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="400" cy="470" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3D68" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#FF3D68" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <path d="M400 -30 L150 620 L650 620 Z" fill="url(#cone)" opacity=".33"/>
+  <ellipse cx="400" cy="470" rx="290" ry="90" fill="url(#pool)"/>
+  <g stroke="#FF3D68" fill="none" stroke-width="6" stroke-linecap="round" opacity=".95"><path d="M400 250v170"/><path d="M400 250c-40-34-96-40-146-30v170c50-10 106-4 146 30"/><path d="M400 250c40-34 96-40 146-30v170c-50-10-106-4-146 30"/><line x1="300" y1="300" x2="360" y2="306"/><line x1="440" y1="306" x2="500" y2="300"/><line x1="300" y1="340" x2="360" y2="346"/><line x1="440" y1="346" x2="500" y2="340"/></g>
+</svg>

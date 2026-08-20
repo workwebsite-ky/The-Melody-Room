@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Workshops">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241432"/><stop offset="1" stop-color="#120B18"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="300" y1="0" x2="300" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9A93F" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#E9A93F" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="400" cy="470" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9A93F" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#E9A93F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <path d="M400 -30 L150 620 L650 620 Z" fill="url(#cone)" opacity=".33"/>
+  <ellipse cx="400" cy="470" rx="290" ry="90" fill="url(#pool)"/>
+  <g stroke="#E9A93F" fill="none" stroke-width="6" stroke-linecap="round" opacity=".95"><circle cx="550" cy="320" r="26"/><circle cx="506" cy="385" r="26"/><circle cx="400" cy="412" r="26"/><circle cx="294" cy="385" r="26"/><circle cx="250" cy="320" r="26"/><circle cx="294" cy="255" r="26"/><circle cx="400" cy="228" r="26"/><circle cx="506" cy="255" r="26"/><circle cx="400" cy="320" r="14" stroke-width="4"/></g>
+</svg>
