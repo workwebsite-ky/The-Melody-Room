@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" role="img"
+     aria-label="Stage lighting washing over an audience at a Melody Room show">
+  <defs>
+    <linearGradient id="beam-E9A93F" x1="0" y1="0" x2="0" y2="760" gradientUnits="userSpaceOnUse">
+             <stop offset="0" stop-color="#E9A93F" stop-opacity=".95"/>
+             <stop offset="1" stop-color="#E9A93F" stop-opacity="0"/></linearGradient><linearGradient id="beam-FF3D68" x1="0" y1="0" x2="0" y2="760" gradientUnits="userSpaceOnUse">
+             <stop offset="0" stop-color="#FF3D68" stop-opacity=".95"/>
+             <stop offset="1" stop-color="#FF3D68" stop-opacity="0"/></linearGradient><linearGradient id="beam-4CC9E0" x1="0" y1="0" x2="0" y2="760" gradientUnits="userSpaceOnUse">
+             <stop offset="0" stop-color="#4CC9E0" stop-opacity=".95"/>
+             <stop offset="1" stop-color="#4CC9E0" stop-opacity="0"/></linearGradient>
+    <radialGradient id="floor" cx="800" cy="700" r="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9A93F" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#E9A93F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241432"/><stop offset="1" stop-color="#120B18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="800" fill="url(#room)"/>
+  <path d="M430 -40 L240 760 L620 760 Z" fill="url(#beam-E9A93F)" opacity="0.3"/><path d="M800 -40 L570 760 L1030 760 Z" fill="url(#beam-FF3D68)" opacity="0.22"/><path d="M1180 -40 L980 760 L1380 760 Z" fill="url(#beam-4CC9E0)" opacity="0.16"/>
+  <ellipse cx="800" cy="705" rx="600" ry="120" fill="url(#floor)"/>
+  <!-- mic stand, centre stage -->
+  <g stroke="#120B18" stroke-width="7" fill="#120B18" opacity=".92">
+    <line x1="800" y1="470" x2="800" y2="700" stroke-linecap="round"/>
+    <ellipse cx="800" cy="702" rx="52" ry="9" stroke="none"/>
+    <rect x="786" y="424" width="28" height="58" rx="14" stroke="none"/>
+  </g>
+  <g fill="#120B18" opacity=".96"><circle cx="-20" cy="727" r="24"/><rect x="-55" y="751" width="69" height="72" rx="21"/><circle cx="53" cy="724" r="21"/><rect x="23" y="745" width="61" height="63" rx="19"/><circle cx="117" cy="725" r="21"/><rect x="87" y="746" width="60" height="62" rx="19"/><circle cx="170" cy="727" r="25"/><rect x="133" y="752" width="73" height="76" rx="23"/><circle cx="225" cy="712" r="25"/><rect x="188" y="737" width="73" height="75" rx="23"/><circle cx="281" cy="719" r="23"/><rect x="248" y="742" width="66" height="68" rx="20"/><circle cx="363" cy="718" r="27"/><rect x="324" y="745" width="78" height="81" rx="24"/><circle cx="446" cy="718" r="21"/><rect x="416" y="739" width="60" height="62" rx="19"/><circle cx="507" cy="731" r="22"/><rect x="476" y="753" width="63" height="65" rx="20"/><circle cx="569" cy="718" r="30"/><rect x="526" y="747" width="86" height="89" rx="27"/><circle cx="640" cy="717" r="28"/><rect x="600" y="745" width="80" height="83" rx="25"/><circle cx="709" cy="734" r="21"/><rect x="679" y="754" width="60" height="62" rx="19"/><circle cx="768" cy="715" r="28"/><rect x="727" y="743" width="82" height="84" rx="25"/><circle cx="830" cy="716" r="27"/><rect x="791" y="743" width="78" height="81" rx="24"/><circle cx="892" cy="708" r="30"/><rect x="849" y="737" width="86" height="89" rx="27"/><circle cx="951" cy="715" r="27"/><rect x="912" y="742" width="78" height="81" rx="24"/><circle cx="1031" cy="717" r="29"/><rect x="990" y="746" width="83" height="86" rx="26"/><circle cx="1115" cy="726" r="21"/><rect x="1084" y="747" width="62" height="64" rx="19"/><circle cx="1191" cy="723" r="22"/><rect x="1159" y="745" width="63" height="65" rx="20"/><circle cx="1244" cy="709" r="28"/><rect x="1204" y="737" width="81" height="84" rx="25"/><circle cx="1315" cy="714" r="31"/><rect x="1270" y="744" width="88" height="92" rx="27"/><circle cx="1389" cy="714" r="27"/><rect x="1350" y="741" width="79" height="81" rx="24"/><circle cx="1456" cy="702" r="30"/><rect x="1412" y="732" width="87" height="90" rx="27"/><circle cx="1523" cy="723" r="28"/><rect x="1482" y="751" width="81" height="84" rx="25"/><circle cx="1597" cy="704" r="28"/><rect x="1557" y="732" width="81" height="83" rx="25"/></g>
+</svg>
